@@ -1,0 +1,53 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Scripts/ferris.gdns" type="Script" id=1]
+[ext_resource path="res://sprites/rustacean-flat-happy.png" type="Texture" id=2]
+[ext_resource path="res://sprites/rustacean-flat-noshadow.png" type="Texture" id=3]
+[ext_resource path="res://SkyShader.gdshader" type="Shader" id=4]
+[ext_resource path="res://Scripts/Scene.gdns" type="Script" id=5]
+
+[sub_resource type="ShaderMaterial" id=4]
+shader = ExtResource( 4 )
+shader_param/bg_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 56, 28.5 )
+
+[node name="Scene" type="Node2D"]
+position = Vector2( 60, 34 )
+script = ExtResource( 5 )
+cursor_move_threshold = 20
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource( 4 )
+margin_left = -60.0
+margin_top = -34.0
+margin_right = 964.0
+margin_bottom = 566.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="ferris" type="Area2D" parent="."]
+position = Vector2( 462, 264 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="ferris"]
+scale = Vector2( 0.25, 0.25 )
+frames = SubResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ferris"]
+position = Vector2( 0, -0.5 )
+shape = SubResource( 2 )
+
+[node name="InputTimer" type="Timer" parent="."]
+one_shot = true
