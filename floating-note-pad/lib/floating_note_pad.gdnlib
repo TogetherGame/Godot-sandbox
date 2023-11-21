@@ -1,0 +1,14 @@
+[general]
+
+singleton=false
+load_once=true
+symbol_prefix="godot_"
+reloadable=true
+
+[entry]
+
+X11.64="res://lib/x86_64-unknown-linux-gnu/libfloating_note_pad.so"
+
+[dependencies]
+
+X11.64=[  ]

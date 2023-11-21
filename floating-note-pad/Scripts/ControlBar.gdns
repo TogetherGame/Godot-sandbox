@@ -1,0 +1,8 @@
+[gd_resource type="NativeScript" load_steps=2 format=2]
+
+[ext_resource path="res://lib/floating_note_pad.gdnlib" type="GDNativeLibrary" id=1]
+
+[resource]
+resource_name = "ControlBar"
+class_name = "ControlBar"
+library = ExtResource( 1 )

@@ -1,7 +1,8 @@
 [workspace]
 resolver = "2"
 members = [
-    "core/dvd_screen_saver"
+    "core/dvd_screen_saver",
+    "core/floating_note_pad",
 ]
 
 [workspace.dependencies]
