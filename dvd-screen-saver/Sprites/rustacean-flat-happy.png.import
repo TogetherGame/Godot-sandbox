@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rustacean-flat-noshadow.png-61a03b70d7866e8d9ff90b5b6004214e.stex"
+path="res://.import/rustacean-flat-happy.png-c2da86e80558ab6d7379003178a24c23.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/rustacean-flat-noshadow.png"
-dest_files=[ "res://.import/rustacean-flat-noshadow.png-61a03b70d7866e8d9ff90b5b6004214e.stex" ]
+source_file="res://Sprites/rustacean-flat-happy.png"
+dest_files=[ "res://.import/rustacean-flat-happy.png-c2da86e80558ab6d7379003178a24c23.stex" ]
 
 [params]
 

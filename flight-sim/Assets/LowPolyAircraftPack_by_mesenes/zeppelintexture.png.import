@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rustacean-flat-happy.png-fd982fd4cc4e7a9a59ee1fe1e8e6496a.stex"
+path="res://.import/zeppelintexture.png-0b1cc98dee26a4b49cffaeb141086cf8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/rustacean-flat-happy.png"
-dest_files=[ "res://.import/rustacean-flat-happy.png-fd982fd4cc4e7a9a59ee1fe1e8e6496a.stex" ]
+source_file="res://Assets/LowPolyAircraftPack_by_mesenes/zeppelintexture.png"
+dest_files=[ "res://.import/zeppelintexture.png-0b1cc98dee26a4b49cffaeb141086cf8.stex" ]
 
 [params]
 

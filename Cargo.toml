@@ -1,8 +1,10 @@
 [workspace]
 resolver = "2"
 members = [
-    "core/dvd_screen_saver",
-    "core/floating_note_pad",
+    "Rust/dev",
+    "Rust/dvd_screen_saver",
+    "Rust/floating_note_pad",
+    "Rust/flight_sim",
 ]
 
 [workspace.dependencies]

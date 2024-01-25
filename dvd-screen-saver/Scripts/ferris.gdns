@@ -1,8 +1,10 @@
 [gd_resource type="NativeScript" load_steps=2 format=2]
 
-[ext_resource path="res://libs/ferris_core.gdnlib" type="GDNativeLibrary" id=1]
+[sub_resource type="GDNativeLibrary" id=1]
+entry/X11.64 = "res://Lib/x86_64-unknown-linux/libdvd_screen_saver.so"
+dependency/X11.64 = [  ]
 
 [resource]
 resource_name = "Ferris"
 class_name = "Ferris"
-library = ExtResource( 1 )
+library = SubResource( 1 )
